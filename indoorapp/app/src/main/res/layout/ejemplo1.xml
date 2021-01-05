@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EjemploActivity">
+
+    <TextView
+        android:id="@+id/textNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre:"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:hint="Nombre"
+        android:layout_margin="5dp"
+        android:inputType="text|textPersonName"
+        />
+    <TextView
+        android:id="@+id/textLastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apellido Paterno:"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/txtLastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:hint="Apellido Paterno"
+        android:layout_margin="5dp"
+        android:inputType="text|textPersonName"
+        />
+    <TextView
+        android:id="@+id/textLastname2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apellido Materno:"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/txtLastname2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:hint="Apellido Materno"
+        android:layout_margin="5dp"
+        android:inputType="text|textPersonName"
+        />
+    <TextView
+        android:id="@+id/textEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:hint="Email"
+        android:layout_margin="5dp"
+        android:inputType="textEmailAddress"
+        />
+    <TextView
+        android:id="@+id/textPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:hint="Password"
+        android:layout_margin="5dp"
+        android:inputType="text|textPassword"
+        />
+
+    <Button
+        android:id="@+id/buttonGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:background="@android:color/holo_orange_dark"
+        android:textColor="@android:color/white"
+        />
+
+</LinearLayout>

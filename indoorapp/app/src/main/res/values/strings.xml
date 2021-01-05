@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Find IT</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="todo">TODO</string>
+    <string name="Enviar">Enviar</string>
+    <string name="Email">Email</string>
+    <string name="prueba_de_la_app_en_android">Prueba de la app en Android</string>
+    <string name="tecnolog_as_inclusivas">Tecnologías inclusivas</string>
+    <string name="find_it">Find IT</string>
+    <string name="Registrate">Registrate</string>
+    <string name="IniciarSesion">Iniciar Sesión</string>
+    <string name="seleccione_su_destino_de_la_siguiente_lista">Seleccione su destino de la siguiente lista</string>
+    <string name="seleccionar_destinos">Seleccionar destinos</string>
+    <string name="muevete_para_detectar_un_sensor_find_it">Muevete para detectar un sensor Find IT</string>
+</resources>
